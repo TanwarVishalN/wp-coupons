@@ -1,0 +1,167 @@
+*{
+	box-sizing: border-box;
+}
+.clear::before, .clear::after, .coupon-row::before, .coupon-row::after,
+.coupon-container::before, .coupon-container::after{
+	content: '';
+	clear:	both;
+	display: table;
+}
+
+.coupon-container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.coupon-row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.coupon-col-1, .coupon-col-2, .coupon-col-3, .coupon-col-4, .coupon-col-5, .coupon-col-6, .coupon-col-7, .coupon-col-8, .coupon-col-9, .coupon-col-10, .coupon-col-11, .coupon-col-12{
+	position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.coupon-col-1, .coupon-col-2, .coupon-col-3, .coupon-col-4, .coupon-col-5, .coupon-col-6, .coupon-col-7, .coupon-col-8, .coupon-col-9, .coupon-col-10, .coupon-col-11, .coupon-col-12{
+	float: left;
+}
+.coupon-col-1{
+	width:	8.33333333%;
+}
+.coupon-col-2{
+	width:	16.66666667%;
+}
+.coupon-col-3{
+	width:	25%;
+}
+.coupon-col-4{
+	width:	33.33333333%;
+}
+.coupon-col-5{
+	width:	41.66666667%;
+}
+.coupon-col-6{
+	width:	50%;
+}
+.coupon-col-7{
+	width:	58.33333333%;
+}
+.coupon-col-8{
+	width:	66.66666666%;
+}
+.coupon-col-9{
+	width:	75%;
+}
+.coupon-col-10{
+	width:	83.33333333%;
+}
+.coupon-col-11{
+	width:	91.66666667%;
+}
+.coupon-col-12{
+	width:	100%;
+}
+.coupon-form {
+	width: 60%;
+}
+.form {
+    margin: 30px 0px;
+}
+.hr{
+	width: 100%;
+	border-bottom: 1px solid #ccc;
+	margin: 15px 0; 
+}
+.divider{
+	border-bottom: 1px solid #ccc;
+	padding: 15px 0; 
+}
+.space-top{
+	width: 100%;
+	margin-top: 15px; 
+}
+.space-bottom{
+	width: 100%;
+	margin-top: 15px; 
+}
+.form-input{
+	width: 25rem;
+	max-width: 25rem;
+}
+label, .label{
+	vertical-align: middle;
+	font-size: 14px;
+    font-weight: 500;
+}
+.uppercase{
+	text-transform: uppercase;
+}
+
+
+/* Datepicker Styling */
+#ui-datepicker-div {
+    background: #fff;
+    width: 20%;
+    padding: 5px;
+}
+
+a.ui-datepicker-prev {
+    float: left;
+    cursor: pointer;
+}
+
+a.ui-datepicker-next {
+    float: right;
+    cursor: pointer;
+}
+
+.ui-datepicker-title {
+    text-align: center;
+}
+.ui-datepicker-unselectable{
+	opacity: 0;
+}
+.ui-datepicker-header {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 1px solid #d1e0ea;
+    margin-bottom: 10px;
+}
+
+.ui-datepicker-today {
+    background: #d1e0ea;
+}
+
+.ui-datepicker-calendar {
+    width: 100%;
+}
+
+.ui-datepicker-calendar thead {
+    background: #d1e0ea;
+}
+
+.ui-datepicker-week-end {
+    color: #d64545;
+}
+
+.ui-datepicker-calendar td {
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 3px;
+    border: 1px solid #d1e0ea;
+}
+
+.ui-datepicker-calendar td a {
+	text-decoration: none;
+}
+
+.ui-datepicker-current-day a {
+    color: #000;
+}
+.ui-datepicker-current-day {
+    background: #76b3de;
+    color: #fff;
+}
